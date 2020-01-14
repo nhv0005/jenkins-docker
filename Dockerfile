@@ -1,4 +1,5 @@
 FROM jenkins/jenkins:lts
+hello
 USER root
 
 RUN mkdir -p /tmp/download && \
